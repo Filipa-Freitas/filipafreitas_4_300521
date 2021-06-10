@@ -1028,12 +1028,26 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .bg-banniere {
+        background-image: url("img/la-chouette-agence-banniere_1_.webp");
+    }
+    
+    .bg-presentation {
+        background-image: url("img/image-de-presentation_2_.webp");
+    }
 }
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    .bg-banniere {
+        background-image: url("img/la-chouette-agence-banniere.webp");
+    }
+    
+    .bg-presentation {
+        background-image: url("img/image-de-presentation_1_.webp");
     }
 }
 
