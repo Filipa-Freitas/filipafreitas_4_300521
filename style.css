@@ -292,7 +292,7 @@ a:hover {
     margin-bottom: 0;
     z-index: 1;
 }
-.navbar-brand:focus, .navbar-brand:hover {
+.navbar-brand:hover {
     
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -336,8 +336,7 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
+.nav > li a:hover {
     background: transparent;
     text-decoration: underline;
 }
@@ -482,6 +481,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    padding: 5px;
 }
 
 .icon-lg {
@@ -539,9 +539,10 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+    margin-bottom: 24px;
 }
 
-a[data-lightbox]:hover::before, a[data-lightbox]:focus::before {
+a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
@@ -559,7 +560,7 @@ a[data-lightbox]:hover::before, a[data-lightbox]:focus::before {
     -webkit-transform: translateY(-50%);
 }                   
 
-a[data-lightbox]:hover img, a[data-lightbox]:focus img {
+a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;      
     animation-fill-mode: none;
@@ -745,7 +746,6 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -790,7 +790,7 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.btn-atomic-tangerine:hover, .btn-atomic-tangerine:focus {
+.btn-atomic-tangerine:hover {
     background: #8B3C18!important;
     color: #FFFFFF!important;   
 }
@@ -799,7 +799,7 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.ltc-white:hover, .ltc-white:focus {
+.ltc-white:hover {
     color: #f3976c !important;
 }
 
@@ -831,7 +831,10 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
-
+a:focus {
+    border: #000000 2px solid;
+    background-color: transparent!important;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
