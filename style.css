@@ -523,7 +523,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -833,12 +833,13 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
-a:focus {
+
+a:focus,
+.btn:focus,
+button:focus {
     border: #000000 2px solid;
 }
-.btn:focus {
-    border: #000000 2px solid;
-}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
