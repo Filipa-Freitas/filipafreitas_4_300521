@@ -293,9 +293,9 @@ a:hover {
     z-index: 1;
 }
 .navbar-brand:hover {
-    
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
@@ -340,9 +340,11 @@ a:hover {
     background: transparent;
     text-decoration: underline;
 }
+
 .nav > li a:focus {
     background: transparent;
 }
+
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
