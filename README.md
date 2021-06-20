@@ -21,7 +21,7 @@ Projet 4 du parcours developpeur web d'Openclassrooms.
 
 - Un système de gestion de version
 - Un éditeur de code
-- La maquette mobile
+- La maquette du site
 - Le brief
 
 ## Démarrage
